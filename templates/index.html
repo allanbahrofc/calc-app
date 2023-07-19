@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc-app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+<body>
+    <section class="app">
+        <div class="appDisplay">
+            <input class="display" type="text" value="0" readonly/>
+            <div class="appButtons">
+                <button class="appButton">1</button>
+                <button class="appButton">2</button>
+                <button class="appButton">3</button>
+                <button class="appButton">4</button>
+                <button class="appButton">5</button>
+                <button class="appButton">6</button>
+                <button class="appButton">7</button>
+                <button class="appButton">8</button>
+                <button class="appButton">9</button>
+                <button class="appButton">0</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
